@@ -55,7 +55,7 @@ async def main_entry():
 
     # تنظیمات Worker برای اتصال به سرور LiveKit شما
     worker_options = WorkerOptions(
-        host=os.environ["LIVEKIT_URL"],
+        host=os.environ["LIVEKIT_HOST_URL"],
         api_key=os.environ["LIVEKIT_API_KEY"],
         api_secret=os.environ["LIVEKIT_API_SECRET"],
     )
